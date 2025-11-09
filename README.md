@@ -158,6 +158,11 @@ Las contribuciones son bienvenidas. Por favor:
 
 Este proyecto está desarrollado para fines educativos y de análisis universitario.
 
+## Integrantes del Proyecto
+
+👨‍💻 **Camilo Benitez**  
+👨‍💻 **Mateo Baca**
+
 ## Autor
 
 **IngBenichi**
