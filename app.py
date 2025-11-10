@@ -25,6 +25,21 @@ st.markdown(
         border-radius: 10px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
+    .stMetric label {
+        color: #31333F !important;
+        font-weight: 600 !important;
+    }
+    .stMetric .css-1xarl3l {
+        color: #0e1117 !important;
+    }
+    .stMetric [data-testid="stMetricValue"] {
+        color: #0e1117 !important;
+        font-size: 1.8rem !important;
+        font-weight: 600 !important;
+    }
+    .stMetric [data-testid="stMetricDelta"] {
+        font-weight: 500 !important;
+    }
     h1 {
         color: #1f77b4;
         text-align: center;
@@ -464,9 +479,9 @@ with tab4:
     with col1:
         show_rows = st.number_input(
             "Filas a mostrar",
-            min_value=5,
-            max_value=len(filtered_df),
-            value=min(10, len(filtered_df)),
+            min_value=1,
+            max_value=len(filtered_df) if len(filtered_df) > 0 else 100,
+            value=min(10, len(filtered_df)) if len(filtered_df) > 0 else 10,
         )
 
     with col2:
