@@ -374,4 +374,7 @@ Este proyecto está desarrollado para fines educativos y de análisis universita
 ## 👤 Autor
 
 **IngBenichi**  
+**bacas07**
+
 GitHub: [@IngBenichi](https://github.com/IngBenichi)
+GitHub: [@IngBenichi](https://github.com/bacas07)
